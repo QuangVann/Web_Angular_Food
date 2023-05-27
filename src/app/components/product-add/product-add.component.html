@@ -1,0 +1,8 @@
+
+<form [formGroup]="productForm" (ngSubmit)="onHandleSubmit()">
+<input class="form-group" type="text" formControlName="name" placeholder="Product Name" >
+<input class="form-group" type="text" formControlName="price" placeholder="Product Price">
+<input class="form-group" type="text" formControlName="desc" placeholder="Product Desc">
+<input class="form-group" type="file" formControlName="img" placeholder="Product Image">
+<button type="submit" [disabled]="!productForm.valid">Submit</button>
+</form>
