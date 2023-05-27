@@ -12,10 +12,14 @@ import { ProductEditComponent } from './components/product-edit/product-edit.com
 import { ProductListComponent } from './components/product-list/product-list.component';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { HomePageComponent } from './pages/home-page/home-page.component';
+<<<<<<< HEAD
 import { SignupComponent } from './admin/signup/signup.component';
 import { SigninComponent } from './admin/signin/signin.component';
 
 
+=======
+import { HelloComponent } from './pages/hello/hello/hello.component';
+>>>>>>> 5274893 (them hello)
 
 @NgModule({
   declarations: [
@@ -26,10 +30,14 @@ import { SigninComponent } from './admin/signin/signin.component';
     ProductListComponent,
     DashboardComponent,
     HomePageComponent,
+<<<<<<< HEAD
     SignupComponent,
     SigninComponent,
 
 
+=======
+    HelloComponent
+>>>>>>> 5274893 (them hello)
   ],
   imports: [
     BrowserModule,
