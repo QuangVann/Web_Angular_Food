@@ -14,6 +14,7 @@ import { ProductItemComponent } from './components/product-item/product-item.com
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { HomePageComponent } from './pages/home-page/home-page.component';
 import { HelloComponent } from './pages/hello/hello/hello.component';
+import { Hello2Component } from './pages/hello2/hello2/hello2.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { HelloComponent } from './pages/hello/hello/hello.component';
     ProductItemComponent,
     DashboardComponent,
     HomePageComponent,
-    HelloComponent
+    HelloComponent,
+    Hello2Component
   ],
   imports: [
     BrowserModule,
