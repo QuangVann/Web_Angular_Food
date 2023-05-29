@@ -14,7 +14,7 @@ export class ProductAddComponent {
     name: '',
     price: 0,
     desc: '',
-    img: ''
+    image: ''
 }
   constructor(
     private productService: ProductService,
