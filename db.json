@@ -12,7 +12,17 @@
       "name": "Product 2",
       "price": 200,
       "img": "https://picsum.photos/200/209"
-
+    },
+    {
+      "name": "Tôm ",
+      "price": "20000",
+      "desc": "Siêu to",
+      "img": "C:\\fakepath\\mtp.jpg",
+      "id": 3
     }
   ]
+
 }
+
+
+
