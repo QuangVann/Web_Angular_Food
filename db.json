@@ -3,16 +3,16 @@
     {
       "id": 1,
       "name": "Product 1",
-      "description": "Cua hoang de",
       "price": 100,
-      "img": "https://picsum.photos/200/200"
+      "desc": "siêu đẹp",
+      "image": ""
     },
     {
       "id": 2,
       "name": "Product 2",
       "price": 200,
-      "img": "https://picsum.photos/200/209"
-
+      "desc": "quá đẹp luôn",
+      "image": ""
     }
   ]
 }

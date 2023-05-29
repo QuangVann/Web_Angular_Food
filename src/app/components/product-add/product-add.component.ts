@@ -26,7 +26,7 @@ export class ProductAddComponent {
     name: [''],
     price: [0],
     desc: [],
-    img: [],
+    image: [],
   })
   onHandleSubmit() {
     if (this.productForm.valid) {
@@ -34,7 +34,7 @@ export class ProductAddComponent {
         name: this.productForm.value.name || "",
         price: this.productForm.value.price || 0,
         desc: this.productForm.value.desc || "",
-        img: this.productForm.value.img || "",
+        image: this.productForm.value.image || "",
       }
       this.productService.addProduct(product).subscribe(data => {
         console.log(data)
