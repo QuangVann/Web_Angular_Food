@@ -2,6 +2,7 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { IProduct } from '../interfaces/product';
 import { Observable } from 'rxjs'
+import { UsersList } from '../interfaces/user';
 @Injectable({
   providedIn: 'root'
 })
@@ -13,8 +14,8 @@ export class ProductService {
   getProducts(): Observable<IProduct[]>{
     return this.http.get<IProduct[]>('http://localhost:3000/products')
   }
-  getProduct(id: number | string): Observable<IProduct[]>{
-    return this.http.get<IProduct[]>('http://localhost:3000/products/'+ id)
+  getProduct(id: number | string | null ): Observable<IProduct>{
+    return this.http.get<IProduct>('http://localhost:3000/products/'+ id)
   }
   deleteProduct(id: number | string): Observable<IProduct[]>{
     return this.http.delete<IProduct[]>('http://localhost:3000/products/' + id)
