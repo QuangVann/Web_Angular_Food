@@ -10,7 +10,6 @@ import { AdminPagesComponent } from './admin/admin-pages/admin-pages.component';
 import { ProductAddComponent } from './components/product-add/product-add.component';
 import { ProductEditComponent } from './components/product-edit/product-edit.component';
 import { ProductListComponent } from './components/product-list/product-list.component';
-import { ProductItemComponent } from './components/product-item/product-item.component';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { HomePageComponent } from './pages/home-page/home-page.component';
 
@@ -23,9 +22,9 @@ import { HomePageComponent } from './pages/home-page/home-page.component';
     ProductAddComponent,
     ProductEditComponent,
     ProductListComponent,
-    ProductItemComponent,
     DashboardComponent,
     HomePageComponent,
+
 
   ],
   imports: [

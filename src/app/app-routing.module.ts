@@ -6,7 +6,9 @@ import { AdminPagesComponent } from './admin/admin-pages/admin-pages.component';
 import { ProductAddComponent } from './components/product-add/product-add.component';
 import { ProductEditComponent } from './components/product-edit/product-edit.component';
 
+
 const routes: Routes = [
+  // { path: '', redirectTo: 'login', pathMatch: 'full' },
   { path: '', component: HomePageComponent },
   { path: 'product/:id', component: ProductDetailComponent },
   { path: 'admin', component: AdminPagesComponent },
