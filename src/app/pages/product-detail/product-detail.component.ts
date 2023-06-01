@@ -13,7 +13,7 @@ export class ProductDetailComponent {
     name: '',
     desc:'',
     price: 0,
-    img: '',
+    image: '',
   };
 
   constructor(
