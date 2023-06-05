@@ -54,7 +54,7 @@
 
 
 
-    <div class=" flex">
+    <div class=" flex"  >
       <div class="left">
         <div class="main_image">
           <img src="{{product.image}}" class="slide">
@@ -64,6 +64,7 @@
       <div class="right">
         <h3>{{product.name}}</h3>
         <h4> <small>$</small>{{product.price}} </h4>
+        <h4> <small>$</small>{{product.price}} </h4>
         <p>{{product.desc}}</p>
         <div class="add flex1">
           <span>-</span>
@@ -71,7 +72,7 @@
           <span>+</span>
         </div>
 
-        <button>Add to Bag</button>
+        <button (click)="addToCart(product)">Add to Bag</button>
       </div>
     </div>
 

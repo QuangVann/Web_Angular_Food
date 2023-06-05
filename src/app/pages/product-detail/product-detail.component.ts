@@ -9,10 +9,12 @@ import { ProductService } from 'src/app/services/product.service';
   styleUrls: ['./product-detail.component.css']
 })
 export class ProductDetailComponent {
+
   product: IProduct = {
     name: '',
     desc:'',
     price: 0,
+    quanity: 0,
     image: '',
   };
 
@@ -27,5 +29,8 @@ export class ProductDetailComponent {
         console.log(data);
       })
     })
+  }
+  addToCart(product: IProduct): void {
+    this.productService.event.emit(product);
   }
 }

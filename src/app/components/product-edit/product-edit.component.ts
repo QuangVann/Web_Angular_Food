@@ -12,6 +12,7 @@ export class ProductEditComponent {
   product: IProduct = {
     name: "",
     price: 0,
+    quanity: 0,
     desc: "",
     image: ""
   };
@@ -19,6 +20,7 @@ export class ProductEditComponent {
   productForm = this.formBuilder.group({
     name: ['', [Validators.required]],
     price: [0],
+    quanity: [0],
     desc: ['', [Validators.required]],
     image: ['']
   });
@@ -36,6 +38,7 @@ export class ProductEditComponent {
         this.productForm.patchValue({
           name: product.name,
           price: product.price,
+          quanity: product.quanity,
           desc: product.desc,
           image: product.image
         });
@@ -50,10 +53,11 @@ export class ProductEditComponent {
       id: this.product.id,
       name: this.productForm.value.name || '',
       price: this.productForm.value.price || 0,
+      quanity: this.productForm.value.quanity || 0,
       desc: this.productForm.value.desc || '',
       image: this.productForm.value.image || ''
     };
-    
+
     this.productService.updateProduct(product).subscribe(data => {
       console.log(data);
       this.router.navigateByUrl("/admin/product")
