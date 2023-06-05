@@ -1,5 +1,5 @@
 import { HttpClient } from '@angular/common/http';
-import { Injectable } from '@angular/core';
+import { EventEmitter, Injectable, Output } from '@angular/core';
 import { IProduct } from '../interfaces/product';
 import { Observable } from 'rxjs'
 import { UsersList } from '../interfaces/user';
@@ -9,7 +9,7 @@ import { UsersList } from '../interfaces/user';
 export class ProductService {
 
   constructor(private http: HttpClient) { }
-
+  @Output() event = new EventEmitter();
 
   getProducts(): Observable<IProduct[]> {
     return this.http.get<IProduct[]>('http://localhost:3000/products')

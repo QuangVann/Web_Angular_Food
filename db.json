@@ -4,16 +4,26 @@
       "id": 1,
       "name": "Product 1",
       "price": 100,
+      "quantity": 80,
       "desc": "siêu đẹp",
       "image": "https://tingenz.com/wp-content/uploads/2022/09/hinh-anh-co-gai-cute-anime-8-min.jpg"
     },
 
     {
-      "id": 3,
+      "id": 2,
       "name": "456789",
-      "price": "2343243",
+      "price": 2343243,
+      "quantity": 555555,
       "desc": "đẹp thế",
       "image": "https://tingenz.com/wp-content/uploads/2022/09/hinh-anh-co-gai-cute-anime-8-min.jpg"
+    },
+    {
+      "id": 3,
+      "name": "aly cute",
+      "price": 123456,
+      "quantity": 80,
+      "desc":"cu te",
+      "image": "https://vapa.vn/wp-content/uploads/2022/12/hinh-anh-cute-anime-009.jpg"
     }
 
   ]
