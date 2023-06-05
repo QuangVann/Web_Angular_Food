@@ -12,7 +12,7 @@ products : IProduct [] = []
   constructor(private productService: ProductService) {
     this.productService.getProducts().subscribe((data) => {
     this.products = data
-    
+
   })
 }
 }
