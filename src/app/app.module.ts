@@ -12,6 +12,8 @@ import { ProductEditComponent } from './components/product-edit/product-edit.com
 import { ProductListComponent } from './components/product-list/product-list.component';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { HomePageComponent } from './pages/home-page/home-page.component';
+import { SignupComponent } from './admin/signup/signup.component';
+import { SigninComponent } from './admin/signin/signin.component';
 
 
 
@@ -24,6 +26,8 @@ import { HomePageComponent } from './pages/home-page/home-page.component';
     ProductListComponent,
     DashboardComponent,
     HomePageComponent,
+    SignupComponent,
+    SigninComponent,
 
 
   ],

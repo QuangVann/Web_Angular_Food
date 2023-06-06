@@ -1,0 +1,50 @@
+.login{
+    color: #fff;
+  }
+  .login a{
+    color: #d39e00;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  html, body {
+    height: 100%;
+    margin: 0;
+  }
+  body{
+  
+    background-color: rgb(100, 227, 236); 
+    height: 100%;
+    margin: 0;
+  }
+  .auth-card{
+    background: #149dc3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #8a50b4, #ca5a6d);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #836697, #e38897); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px #f7f7f7;
+  }
+  label{
+    color: #fa9494;
+    font-weight: 700;
+  }
+  .user-image{
+    height: 280px;
+  }
+  .auth-avatar{
+    text-align: center;
+    margin-top: -50px;
+    
+  }
+  .auth{
+    margin-top: 35px;
+    border: none;
+    border-radius: 6px;
+  }
+  .btn-my{
+    background-color: #d39e00;
+    border-color: #d39e00;
+    color: #fff;
+  }
+  .simple-keyboard {
+    max-width: 1000px;
+  }

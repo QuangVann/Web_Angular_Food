@@ -26,6 +26,14 @@
       "image": "https://vapa.vn/wp-content/uploads/2022/12/hinh-anh-cute-anime-009.jpg"
     }
 
+  ],
+  "user":[
+    {
+      "name":"abc",
+      "email":"tien@gmail.com",
+      "password":"123tien"
+
+    }
   ]
 }
 
